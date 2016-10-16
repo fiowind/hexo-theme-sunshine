@@ -1,0 +1,13 @@
+
+
+<%- partial('_partial/header', {pagetitle:false}, {cache: !config.relative_link}) %>
+<div class="outer">
+  <section id="main">
+    <div class="content">
+    <%- partial('_partial/archive', {pagination: 2, index: true}) %>
+    </div>
+    <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
+      <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+    <% } %>
+  </section>
+</div>

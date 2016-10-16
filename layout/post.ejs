@@ -1,0 +1,5 @@
+
+<%- partial('_partial/header', {pagetitle:true, post: page}, {cache: !config.relative_link}) %>
+<div class="outer">
+  <section id="main"><%- partial('_partial/article', {post: page, index: false}) %></section>
+</div>

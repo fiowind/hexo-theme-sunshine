@@ -1,0 +1,44 @@
+# Header
+menu:
+  HOME: /
+  ARCHIVES: /archives
+  ABOUT: /about
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: right
+widgets:
+- category
+- tag
+- about
+# - archive
+# - recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+#widgt
+mywords: 写写代码，发发小呆，找找美食，看看世界，实现些小梦想
+weibourl: http://weibo.com/fiowin
+githuburl: https://github.com/fiowind
+facebookurl: https://www.facebook.com/fiowind.zfx
+zhihuurl: https://www.zhihu.com/people/fio-wind
