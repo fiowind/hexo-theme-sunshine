@@ -1,27 +1,30 @@
 # sunshine
 
-A brand new default theme for [Hexo].
+A lovely theme for [Hexo].
 
-- [Preview](http://hexo.io/hexo-theme-sunshine/)
+![litten-qrcode](https://img3.doubanio.com/view/status/median/public/8d3d6d52c23065d.jpg)
+![litten-qrcode](https://img3.doubanio.com/view/status/median/public/e7e76b757169686.jpg)
+
+- [Preview](http://fiowind.top)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-sunshine.git themes/sunshine
+$ git clone https://github.com/fiowind/hexo-theme-sunshine.git
 ```
 
 **sunshine requires Hexo 2.4 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `sunshine`.
+Modify `theme` setting in `_config.yml` to `hexo-theme-sunshine`.
 
 ### Update
 
 ``` bash
-cd themes/sunshine
+cd themes/hexo-theme-sunshine
 git pull
 ```
 
@@ -41,17 +44,19 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- category
 - tag
-- tagcloud
+- about
 - archives
 - recent_posts
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
-google_plus:
+mywords: 
+weibourl: 
+githuburl:
+facebookurl: 
+zhihuurl: 
 ```
 
 - **menu** - Navigation menu
