@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Landscape
 
 A brand new default theme for [Hexo].
@@ -109,3 +110,7 @@ All of them are enabled by default. You can edit them in `widget` setting.
 [Fancybox]: http://fancyapps.com/fancybox/
 [Font Awesome]: http://fontawesome.io/
 [Grunt]: http://gruntjs.com/
+=======
+# hexo-theme-sunshine
+The blog theme you may fall in love with, coming to Hexo.
+>>>>>>> 9cde79c7616b2865f0fba4eaf3163a5c53be0889
