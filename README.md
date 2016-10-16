@@ -1,28 +1,27 @@
-<<<<<<< HEAD
-# Landscape
+# sunshine
 
 A brand new default theme for [Hexo].
 
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+- [Preview](http://hexo.io/hexo-theme-sunshine/)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
+$ git clone https://github.com/hexojs/hexo-theme-sunshine.git themes/sunshine
 ```
 
-**Landscape requires Hexo 2.4 and above.**
+**sunshine requires Hexo 2.4 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `landscape`.
+Modify `theme` setting in `_config.yml` to `sunshine`.
 
 ### Update
 
 ``` bash
-cd themes/landscape
+cd themes/sunshine
 git pull
 ```
 
@@ -70,7 +69,7 @@ google_plus:
 
 ### Fancybox
 
-Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
+sunshine uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
 
 ```
 ![img caption](img url)
@@ -82,7 +81,7 @@ Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax o
 
 You can put your sidebar in left side, right side or bottom of your site by editing `sidebar` setting.
 
-Landscape provides 5 built-in widgets:
+sunshine provides 5 built-in widgets:
 
 - category
 - tag
@@ -110,7 +109,4 @@ All of them are enabled by default. You can edit them in `widget` setting.
 [Fancybox]: http://fancyapps.com/fancybox/
 [Font Awesome]: http://fontawesome.io/
 [Grunt]: http://gruntjs.com/
-=======
-# hexo-theme-sunshine
-The blog theme you may fall in love with, coming to Hexo.
->>>>>>> 9cde79c7616b2865f0fba4eaf3163a5c53be0889
+
