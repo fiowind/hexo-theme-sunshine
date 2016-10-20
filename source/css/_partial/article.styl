@@ -28,6 +28,7 @@
   margin: 0 12px 1em
 
 .article-header
+  display none;
   padding: article-padding article-padding 0
 
 .article-title
@@ -42,6 +43,8 @@
 
 .index-page
   border-bottom 1px solid #eee
+  .article-header
+    display block
   .article
     margin: 10px 0;
     width 100%
@@ -78,7 +81,8 @@
         display inline-block
 .article-entry
   @extend $base-style
-  font-family Source Code Pro
+  font-family font-sans
+  font-size: 18px;
   clearfix()
   color: color-default
   padding: 0 article-padding
@@ -118,10 +122,13 @@
     border-bottom: 1px solid color-border
     padding: 10px 0
   blockquote
-    font-family: font-serif
-    font-size: 1.4em
-    margin: line-height 20px
-    text-align: center
+    font-family:  font-sans
+    font-size: .8em;
+    margin: 1.6em 20px;
+    text-align: center;
+    border-left: 12px solid #eee;
+    padding: 5px 15px;
+    background: #f9f9f9;
     footer
       font-size: font-size
       margin: line-height 0
